@@ -1,0 +1,138 @@
+.loginPage{
+    border-radius: 2px;
+    box-shadow: 0px 1px 11px #d3d3d3;
+    top: 45px;
+    position: relative;
+    margin: auto;
+    width: 35%;
+    border: 1px solid #ffffff;
+    align-items: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: auto;
+}
+.login-bx{
+    margin-top: 40px;
+    width: 100%;
+    height: -webkit-fill-available;
+}
+.email-sec{
+    display: flex;
+    flex-direction: column;
+}
+.sign-in-text{
+    margin-bottom: 4px;
+}
+.fb-google-links p{
+    word-spacing: 0.4px;
+    color: #4e4d4d;
+    line-height: 26px;
+    margin-top: 5px;
+    font-size: 15px;
+    letter-spacing: -0.4px;
+}
+.fb-google-links div{
+    margin: auto;
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+.fb-google-links div button{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 43px;
+    font-family: math;
+    border: 1.3px solid black;
+    text-align: center;
+    padding: 6px 10px;
+    background-color: transparent;
+    font-size: 15px;
+    width: 48%;
+    border-radius: 6px;
+}
+.fb-google-links div button span i{
+    position: relative;
+    margin-right: 7px;
+    color: #4444bc;
+    font-size: 24px;
+    top: 2px;
+}
+.fb-google-links a{
+    color: unset;
+    text-decoration: none;
+}
+.google-img{
+    position: relative;
+    margin-right: 6px;
+    width: 20px;
+    top: -1px;
+}
+.email-sec div input{
+    border-radius: 5px;
+    border: 1px solid #bcb4b4;
+    margin-bottom: 15px;
+    outline: none;
+    width: 91%;
+    padding: 8px 0px 8px 8px;
+}
+.email-sec div button{
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 71%;
+    background-color: black;
+    color: white;
+    height: 39px;
+    font-size: 14px;
+}
+.forgot-password-text{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4px;
+}
+.sign-up-btn {
+    cursor: pointer;
+    font-family: math;
+    color: #6d6262;
+    word-spacing: -0.4px;
+    letter-spacing: -0.6px;
+    position: relative;
+    
+}
+.sign-up-btn a{
+    text-decoration: none;
+    color: unset;
+}
+.sign-up-btn::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px; /* Height of the underline */
+    background-color: rgb(160, 155, 138); /* Color of the underline */
+    transition: width 0.3s ease-in-out; /* Animation duration and easing */
+  }
+  .sign-up-btn:hover::before {
+    width: 100%;
+  }
+.back-to-home-link a{
+    font-size: 13px;
+    color: #4444bc;
+    text-decoration: none;
+}
+.back-to-home-link a:hover{
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width: 600px){
+.loginPage{
+    width: 95%;
+    height: 550px;
+}
+}
+  

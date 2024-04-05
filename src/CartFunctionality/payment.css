@@ -1,0 +1,125 @@
+.payment-by-scanner{
+    display: flex;
+    justify-content: space-around;
+}
+.scanner-heading{
+    margin: 30px 0px 10px;
+    display: flex;
+    justify-content: center;
+}
+.scan-bx{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 42.5%;
+}
+.payment-accepted {
+    padding-top: 5px;
+    margin-bottom: 11px;
+    font-weight: 500;
+    color: purple;
+    font-size: 15px;
+}
+
+.phonepe-text{
+    padding: 26px 0px 4px;
+    color: white;
+}
+.scan-text{
+    margin: 10px 0px 40px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #605f5f;
+}
+.scan-bx .white-background{
+    border-radius: 4px;
+    height: 258px;
+    background-color: white;
+    width: 240px;
+}
+.scan-bx {
+    background-color: #630a63;
+    height: 385px;
+}
+.right-section-payment{
+    width: 30%;
+    margin-top: 36px;
+}
+ .left-section-payment{
+    width: 50%;
+    position: relative;
+}
+.left-section-payment::after{
+    top: 0;
+    right: -50px;
+    position: absolute;
+    content: "";
+    border-right: 1px solid #dddddd;
+    height: 496px;
+} 
+.price-details-payment{
+    width: 68%;
+  }
+.price-details-payment div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+  }
+.price-details-payment div span{
+    margin-bottom: 3px;
+  }
+.facilities .type{
+    width: 28%;
+}
+.facilities .type img{
+    width: 48px;
+}
+.facilities .type p{
+    font-size: 11px;
+}
+.facilities{
+    top: 48px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    left: -33px;
+}
+
+
+@media screen and (max-width: 600px) {
+.payment-by-scanner {
+        display: block;
+}
+.left-section-payment::after {
+    position: unset;
+}
+.left-section-payment {
+    width: 100%;
+    position: unset;
+}
+.scan-bx {
+    width: 69%;
+}
+.facilities {
+    display: flex;
+    position: unset;
+    width: 100%;
+    justify-content: center;
+}
+.right-section-payment {
+    width: 100%;
+}
+.right-section-payment h6{
+    text-align: center;
+}
+.price-details-payment {
+    height: 129px;
+    margin: auto;
+    width: 78%;
+}
+}
+

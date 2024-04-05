@@ -1,0 +1,47 @@
+.pincode-functionality{
+    width: 680px;
+    height: 155px;
+    border-bottom: 1px solid #d0cccc;
+}
+.pincode-functionality h5{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-weight: 490;
+}
+.pincode-functionality P{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 14px;
+}
+.pincode-functionality input{
+    padding: 0px 5px;
+    outline: none;
+    width: 51%;
+    height: 41px;
+}
+
+.pincode-field span{
+    font-weight: 500;
+    color: green;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: -49px;
+}
+
+@media screen and (max-width: 600px) {
+    .pincode-functionality {
+        min-height: 125px;
+        width: 100%;
+        height: -webkit-fill-available;
+    }
+    .pincode-functionality input {
+        width: 100%;
+        height: 30px;
+    }
+    .pincode-functionality h5 {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+}

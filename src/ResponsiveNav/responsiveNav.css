@@ -1,0 +1,82 @@
+.HideButn{
+    display: none;
+}
+.ShowButn{
+    border-radius: 4px;
+    padding: 0px 4px;
+    font-size: 11px;
+    background-color: black;
+    color: #e1d7d7;
+}
+.Show{
+    border-radius: 4px;
+    padding: 0px 4px;
+    font-size: 11px;
+    background-color: black;
+    color: #e1d7d7;
+}
+.Hide{
+    display: none;
+}
+.openbar{
+    display: grid;
+    width: 100%;
+    background-color: white;
+    right: 0px;
+    position: absolute;
+    z-index: 1;
+    top: 78px;
+    justify-content: center;
+    animation: fadeIn 0.5s;
+    transition: ease-in all 0.4s;
+}
+.openbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+.openbar ul li{
+    text-align: center;
+ list-style: none;
+}
+.closebar{
+    display: none !important;
+    transition: ease-in all 0.4s;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.responsive-navbar{
+    padding-top: 2px;
+    box-shadow: 1px 1px 4px #c4c1c1;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.closebar{
+    display: none;
+}
+.responsive-navbar .logo{
+    width: 27%;
+    margin-left: 6px;
+}
+.responsive-navbar .navicon-main{
+    padding-top: 7px;
+width: 35%;
+}
+.sidebar-btns{
+    padding-top: 7px;
+    width: 5.5%;
+    margin-right: 8px;
+}
+@media screen and (max-width: 600px) {
+.nav-icons {
+    justify-content: space-around;
+}
+
+}

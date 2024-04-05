@@ -1,20 +1,28 @@
 import React from "react";
-import cartimg from "../Media/cart.jpeg"
+import cartimg from "../Media/cart.jpeg";
+import cartIcon from "../Media/cart-icon.svg"
+import { Link } from "react-router-dom";
+import { useCart } from "react-use-cart";
 
 function NavIcons(){
+    const {totalUniqueItems} = useCart()
     return(
         <>
         <div className="nav-icons">
             <div>
-            {/* <i class="fa-solid fa-bag-shopping"></i> */}
-            <img style={{width: "20px"}} src={cartimg} alt="" />
+                <div className="cart-icon">
+            <Link to="/checkout">
+                <p>{totalUniqueItems}</p>
+            <img src={cartIcon} alt="" />
+            </Link></div>
             </div>
             <div className="heart-icon">
             <i class="fa-regular fa-heart"></i>
             </div>
             <div className="nav-login-btn">
-                <button>Login</button>
+                <button className="login-btn"><Link to="/login">Login</Link></button>
             </div>
+                <button className="login-icon"><Link to="/login"><i class="fa-regular fa-user"></i></Link></button>
         </div>
         
         </>

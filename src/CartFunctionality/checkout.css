@@ -1,0 +1,170 @@
+.checkoutPage-main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.address-form{
+  padding: 14px 15px 25px 15px;
+  width: 48.3%;
+  border: 1px solid #bdbaba;
+  font-family: auto;
+  position: relative;
+}
+.address-form::after{
+  content: '';
+  border: 1px solid #eeeeee;
+  height: -webkit-fill-available;
+  position: absolute;
+  right: -54px;
+  top: -31px;
+}
+.city-state{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  justify-content: space-between;
+}
+.address-form div{
+  margin: auto;
+  margin-bottom: 14px;
+  width: 100%;
+  font-family: auto;
+  outline: none;
+}
+.address-form div p{
+    font-family: auto;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #504d4d;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+.address-form div input{
+  /* margin-bottom: 14px; */
+  border: 1px solid #bfbaba;
+  padding-left: 9px;
+  height: 36px;
+  width: 100%;
+  font-family: auto;
+  outline: none;
+}
+.address-form div input::placeholder{
+  font-size: 14px;
+}
+/* /////////////// */
+.address-type span{
+    font-size: 14px;
+}
+.address-type button{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 72px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 2px 0.95rem;
+    margin-right: 30px;
+    border-radius: 6px;
+    height: 28px;
+}
+.checkbox-field{
+  margin: 20px 2px !important;
+}
+.checkbox-field span{
+  position: relative;
+  bottom: 2px;
+}
+.checkbox{
+  border-radius: 0 !important;
+  width: 15px !important;
+  margin-bottom: 0 !important;
+  height: 15px !important;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.address-button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.address-button button{
+height: 36px;
+border: none;
+background-color: black;
+color: white;
+cursor: pointer;
+width: 100%;
+letter-spacing: 0.5px;
+word-spacing: 1px;
+}
+.address-button:hover{
+  opacity: 0.75;
+}
+
+.right-section-checkout{
+  width: 28%;
+}
+.right-section-checkout h6 {
+  color: #636161;
+  font-size: 15px;
+}
+.price-details-checkout{
+  width: 68%;
+  border-bottom: 1px solid #918d8d;
+  padding-bottom: 12px;
+}
+.price-details-checkout div{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+}
+.price-details-checkout div span{
+  margin-bottom: 3px;
+}
+
+/* for state dropdown */
+.state-list{
+  color: #4d4848;
+  border: 1px solid darkgrey;
+  height: 35px;
+  width: 100%;
+  outline: none
+}
+
+@media screen and (max-width: 600px){
+.checkoutPage-main {
+    display: block;
+    margin-top: 20px;
+}
+.address-form {
+  padding: 14px 15px 25px 15px;
+  width: 95%;
+  margin: auto;
+  position: initial;
+}
+.address-form::after {
+
+  position: initial;
+}
+.right-section-checkout {
+  height: 178px;
+  margin: auto;
+  width: 94%;
+}
+.right-section-checkout h6 {
+text-align: center;
+margin-top: 14px;
+}
+.price-details-checkout {
+  margin: auto;
+  width: 79%;
+}
+}
+
+
+
+
+  
