@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { LoginPage } from "../LoginFunctionality/LoginPage";
 import { Spiner2 } from "../Spiner/Spiner2";
-import { LoadingSpinner } from "../Spiner/LoadingSpinner";
 
 function Login(){
     const [showSpin , setShowSpin] = useState(true)

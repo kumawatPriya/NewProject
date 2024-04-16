@@ -7,7 +7,6 @@ import { Swiper } from "../HomePage/Swiper";
 import { SwiperWomen } from "../HomePage/SwiperWomen";
 import { Submenu } from "../HomePage/Submenu";
 import { Footer } from "../HomePage/Footer";
-import { Spiner } from "../Spiner/Spiner";
 import { ContemporarySlider } from "../HomePage/ContemporarySlider";
 import { ResponsiveNav } from "../ResponsiveNav/ResponsiveNav";
 

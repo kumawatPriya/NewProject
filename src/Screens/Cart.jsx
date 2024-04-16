@@ -3,9 +3,6 @@ import '../CartFunctionality/cart.css'
 import { CartPage } from "../CartFunctionality/CartPage";
 import { Checkout } from "../CartFunctionality/Checkout";
 import { Payment } from "../CartFunctionality/Payment";
-import { Link } from "react-router-dom";
-import { Spiner } from "../Spiner/Spiner";
-// import { Link } from "react-router-dom";
 
 function Cart() {
 

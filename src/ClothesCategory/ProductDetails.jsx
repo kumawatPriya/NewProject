@@ -8,7 +8,7 @@ import { MiddleFooter } from "../FooterContent/MiddleFooter";
 import { BottomFooter } from "../FooterContent/BottomFooter";
 import { Copyright } from "../FooterContent/Copyright";
 import { useCart } from "react-use-cart";
-import { Slide, ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import lightningIcon from "../Media/9594-200.png"
 import { ResponsiveNav } from "../ResponsiveNav/ResponsiveNav";

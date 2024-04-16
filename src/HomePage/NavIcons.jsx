@@ -1,5 +1,4 @@
 import React from "react";
-import cartimg from "../Media/cart.jpeg";
 import cartIcon from "../Media/cart-icon.svg"
 import { Link } from "react-router-dom";
 import { useCart } from "react-use-cart";
