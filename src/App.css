@@ -323,7 +323,7 @@ li:hover .menu-main{
 }
 .slideImg{
   height: 430px;
-  width: 1350px;
+  width: -webkit-fill-available;
 }
 /* ================================= contemporarySlider.jsx ========================= */
 .contamporary-slider{
@@ -376,10 +376,11 @@ li:hover .menu-main{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 0px 25px;
+  margin: auto;
+  width: 87%;
 }
 .card-img-text{
-  height: 283px;
+  height: 330px;
   text-align: center;
   width: 30%;
 }
@@ -407,7 +408,7 @@ transition: ease-in all 0.1s;
 }
 .card-content img{
   width: 100%;
-  height: 250px;
+  height: 284px;
   object-fit: cover;
   max-width: -webkit-fill-available;
   min-width: -webkit-fill-available;
@@ -444,7 +445,8 @@ transition: ease-in all 0.1s;
   /* background-color: #e8e0d6; */
   margin-top: 40px;
   /* box-sizing: border-box; */
-  max-width: 1240px;
+  /* max-width: 1240px; */
+  width: 85%;
 }
 div.slick-arrow.slick-prev::before{
   color: black;
@@ -505,8 +507,8 @@ div.slick-arrow.slick-next{
   margin-bottom: 40px;
   height: 545px;
   margin-top: 60px;
-  position: relative;
-  width: 1220px;
+  /* position: relative;
+  width: 1220px; */
   /* margin-left: 10px; */
 }
 .women-slider{
@@ -515,7 +517,7 @@ div.slick-arrow.slick-next{
 }
 .women-swiper{
   max-width: 960px;
-  position: absolute;
+  /* position: absolute; */
   left: 290px;
   top: 102px;
 }
@@ -593,6 +595,7 @@ height: 345px;
   font-weight: 350;
   font-size: 34px;
   text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 .women-slider-content .shop-now{
   letter-spacing: 2.5px;
@@ -600,14 +603,14 @@ height: 345px;
   color: #722020;
   font-size: 36px;
   left: 40px;
-  position: relative;
+  /* position: relative; */
   top: 100px;
 }
 .women-slider-content .text{
   left: 40px;
   top: 288px;
-  position: absolute;
-  width: 145px;
+  /* position: absolute; */
+  /* width: 145px; */
 }
 
 /* ==================================== NewsLetter.jsx ============================== */

@@ -111,14 +111,15 @@ function SwiperWomen() {
     return (
         <>
             <div className="women-slider-title">
-               <h2>The Best Of Sale</h2>
+                <h2>The Best Of Sale</h2>
             </div>
-<div className="women-slider-content">
-    <p className="shop-now">SHOP <br />NOW</p>
-    <p className="text">Get a head start with these blouses & shirts, designed for that much needed time off.</p>
-</div>
-        
-            <div className="women-swiper">
+            <div style={{display: 'flex', width: '90%', justifyContent: 'space-between',margin: 'auto',gap: '20px'}}>
+            <div className="women-slider-content" style={{width: '14%'}}>
+                <p className="shop-now">SHOP <br />NOW</p>
+                <p className="text">Get a head start with these blouses & shirts, designed for that much needed time off.</p>
+            </div>
+
+            <div className="women-swiper" style={{width: '81%'}}>
                 <Slider {...settings}>
                     {
                         cards.map((data) => {
@@ -144,6 +145,7 @@ function SwiperWomen() {
                         })
                     }
                 </Slider>
+            </div>
             </div>
         </>
     )
