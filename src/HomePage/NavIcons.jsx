@@ -2,6 +2,7 @@ import React from "react";
 import cartIcon from "../Media/cart-icon.svg"
 import { Link } from "react-router-dom";
 import { useCart } from "react-use-cart";
+import { FaRegHeart } from "react-icons/fa";
 
 function NavIcons(){
     const {totalUniqueItems} = useCart()
@@ -16,7 +17,8 @@ function NavIcons(){
             </Link></div>
             </div>
             <div className="heart-icon">
-            <i class="fa-regular fa-heart"></i>
+            <FaRegHeart className='heart'/>
+
             </div>
             <div className="nav-login-btn">
                 <button className="login-btn"><Link to="/login">Login</Link></button>

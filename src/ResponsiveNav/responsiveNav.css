@@ -3,17 +3,19 @@
 }
 .ShowButn{
     border-radius: 4px;
-    padding: 0px 4px;
+    padding: 0px 5px;
     font-size: 11px;
     background-color: black;
     color: #e1d7d7;
 }
 .Show{
-    border-radius: 4px;
+    /* border-radius: 4px;
     padding: 0px 4px;
     font-size: 11px;
-    background-color: black;
-    color: #e1d7d7;
+    color: #e1d7d7; */
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
 }
 .Hide{
     display: none;
@@ -51,9 +53,9 @@
     }
   }
 .responsive-navbar{
-    padding-top: 2px;
+    padding-top: 7px;
     box-shadow: 1px 1px 4px #c4c1c1;
-    height: 42px;
+    height: 49px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -67,16 +69,17 @@
 }
 .responsive-navbar .navicon-main{
     padding-top: 7px;
-width: 35%;
+width: 54%;
 }
 .sidebar-btns{
-    padding-top: 7px;
-    width: 5.5%;
-    margin-right: 8px;
+    /* padding-top: 7px; */
+    /* width: 5.5%; */
+    /* margin-right: 8px; */
 }
 @media screen and (max-width: 600px) {
 .nav-icons {
     justify-content: space-around;
+    gap: 5px !important;
 }
 
 }

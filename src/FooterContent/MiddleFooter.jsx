@@ -22,8 +22,8 @@ function MiddleFooter() {
                     </div>
                     <div>
                         <div className="image"> <img src={image2} alt="" /></div>
-                        <p>1k+</p>
-                        <p>Designers</p>
+                        <p>1k+ Designers</p>
+                    
                     </div>
 
                     <div>

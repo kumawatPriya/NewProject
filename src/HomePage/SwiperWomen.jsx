@@ -113,9 +113,9 @@ function SwiperWomen() {
             <div className="women-slider-title">
                 <h2>The Best Of Sale</h2>
             </div>
-            <div style={{display: 'flex', width: '90%', justifyContent: 'space-between',margin: 'auto',gap: '20px'}}>
+            <div className="women_slider_main" style={{display: 'flex', width: '90%', justifyContent: 'space-between',margin: 'auto',gap: '20px'}}>
             <div className="women-slider-content" style={{width: '14%'}}>
-                <p className="shop-now">SHOP <br />NOW</p>
+                <p className="shop-now">SHOP NOW</p>
                 <p className="text">Get a head start with these blouses & shirts, designed for that much needed time off.</p>
             </div>
 

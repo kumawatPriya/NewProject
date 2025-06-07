@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavIcons } from "../HomePage/NavIcons";
 import { Link } from "react-router-dom";
 import "./responsiveNav.css"
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function ResponsiveNav() {
     const [sidebar, setSidebar] = useState(false);
@@ -13,34 +14,13 @@ function ResponsiveNav() {
         setSidebar(false)
     }
     const navList = [
-        {
-            name: "HOME",
-            path: "/"
-        },
-        {
-            name: "WESTERN",
-            path: "/western"
-        },
-        {
-            name: "ETHNICS",
-            path: "/ethnics"
-        },
-        {
-            name: "SPORTS",
-            path: "/sports"
-        },
-        {
-            name: "BAGS",
-            path: "/bags"
-        },
-        {
-            name: "WATCHES",
-            path: "/watches"
-        },
-        {
-            name: "FOOTWEAR",
-            path: "/footwear"
-        },
+        { name: "HOME", path: "/" },
+        { name: "WESTERN", path: "/western" },
+        { name: "ETHNICS", path: "/western" },
+        { name: "SPORTS", path: "/" },
+        { name: "BAGS", path: "/" },
+        { name: "WATCHES", path: "/" },
+        { name: "FOOTWEAR", path: "/" },
     ]
     return (
         <>
@@ -49,12 +29,13 @@ function ResponsiveNav() {
                     <span className="glam">Glam</span>
                     <span className="attire">WEAR</span>
                 </div>
+                <div style={{display: 'flex', alignItems: 'baseline', gap: '22px', width: '35%'}}>
                 <div className="navicon-main">
                     <NavIcons/>
                 </div>
                 <div className="sidebar-btns">
-                     <button className={`${(sidebar === true)? "Hide" : "Show"}`} onClick={showSidebar}>
-                        <i class="fa-solid fa-bars"></i>
+                     <button className={`${(sidebar === true)? "Hide" : 'Show'}`} onClick={showSidebar}>
+                       <GiHamburgerMenu />
                     </button>
 
                      <button className={`${(sidebar === false)? "HideButn": "ShowButn"}`} onClick={closeSidebar}>
@@ -73,6 +54,7 @@ function ResponsiveNav() {
                             )
                         })
                     }
+                </div>
                 </div>
               
             </div>

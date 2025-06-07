@@ -465,7 +465,7 @@ function WesternClothes(props) {
                                                 <h6 className="specific-name">{data.productType}</h6>
                                                 <p className="category">{data.category}</p>
                                                 <div className="item-price">
-                                                    <h6>Rs.{data.price}</h6>
+                                                    <h6>Rs{data.price}</h6>
                                                     <p>{data.pastPrice}</p>
                                                 </div>
                                             </div>

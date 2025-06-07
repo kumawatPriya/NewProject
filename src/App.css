@@ -263,14 +263,19 @@ li:hover .menu-main{
   color: black;
 }
 .navicon-main {
-  width: 11%;
-  padding-right: 10px;
+  width: 12%;
+  /* padding-right: 10px; */
 }
 .nav-icons {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  gap: 18px
 }
 .nav-icons i {
+  font-size: 18px;
+}
+.heart-icon .heart{
   font-size: 18px;
 }
 .nav-login-btn button {
@@ -279,7 +284,9 @@ li:hover .menu-main{
   /* line-height: 14px; */
   border: none;
   color: white;
+  padding: 3px 4px;
   background-color: #6e0e0e;
+  border-radius: 2px;
 }
 .nav-login-btn a{
   padding: 4px 14px;
@@ -319,11 +326,12 @@ li:hover .menu-main{
   color: white;
 }
 .slider-main{
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .slideImg{
   height: 430px;
   width: -webkit-fill-available;
+  object-fit: contain;
 }
 /* ================================= contemporarySlider.jsx ========================= */
 .contamporary-slider{
@@ -798,6 +806,9 @@ position: relative;
 .login-icon{
   display: none;
 }
+.sidebar-btns{
+  display: none;
+}
 /*=========================== Responsive App at 600px =============================== */
 @media screen and (max-width: 600px) {
   *{
@@ -812,13 +823,13 @@ position: relative;
       display: block;
       background-color: transparent;
       border: none;
-      position: absolute;
+      /* position: absolute; */
       right: 51px;
   }
-  .cart-icon {
+  /* .cart-icon {
   position: absolute !important;
     right: 89px;
-  }
+  } */
   .login-icon a{
     color: black;
   }
@@ -849,15 +860,11 @@ position: relative;
     text-transform: uppercase;
   }
   .women-swiper {
-    width: 365px;
-    max-width: -webkit-fill-available;
-    position: absolute;
-    left: 0px;
-    top: 211px;
+    width: 100% !important;
 }
 .swiper-main-women {
   margin-bottom: 40px;
-  height: 648px;
+  height: 580px;
   margin-top: 45px;
   width: unset;
 }
@@ -876,7 +883,7 @@ margin-left: 26px;
   margin: auto;
   left: 40px;
   top: 160px;
-  width: 85%;
+  width: 94%;
 }
   .card-content {
     flex-direction: column;
@@ -981,6 +988,66 @@ margin: 0;
 }
 .prod-discount{
   font-size: 13px;
+}
+.slideImg{
+  height: 130px;
+}
+.slider-text h3{
+  font-weight: 300;
+  font-size: 15px;
+  position: relative;
+  bottom: 15px;
+  color: black;
+}
+.slider-text button{
+  position: relative;
+  bottom: 5px;
+  padding: 1px 5px;
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  font-size: 10px;
+}
+.slider-text1 h3{
+  position: relative;
+  bottom: 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.slider-text1 button{
+  position: relative;
+  bottom: 5px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 10px;
+}
+.women_slider_main{
+  display: block !important;
+}
+.women-slider-title{
+  text-align: center;
+}
+.women-slider-content{
+  width: 100% !important;
+}
+.women-slider-title h2{
+  margin-bottom: 16px;
+}
+.women-slider-content .shop-now{
+  margin-left: 11px;
+}
+.responsive-navbar .navicon-main{
+  width: 20%;
+}
+.sidebar-btns{
+  display: block;
+}
+.search-bar-sticky{
+  display: none;
+}
+.Topheading{
+  display: block !important;
 }
 
 }

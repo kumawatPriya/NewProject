@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { NavIcons } from "./NavIcons";
 import { Submenu } from "./Submenu";
 import { EthnicMenu } from "../MegaMenu's/Ethnic'sMenu";
@@ -10,11 +10,17 @@ import { BagsMenu } from "../MegaMenu's/BagsMenu";
 
 function Navbar() {
 
+  const navigate = useNavigate();
+
+  const handleNavigate = ()=>{
+    navigate('/')
+  }
+
   return (
     <>
 
 
-      <div className="logo">
+      <div className="logo" onClick={handleNavigate} style={{cursor: 'pointer'}}>
         <span className="glam">Glam</span>
         <span className="attire">WEAR</span>
       </div>
@@ -23,7 +29,7 @@ function Navbar() {
         <li className="nav-list">  <Link to="/western">WESTERN</Link>
           <div className="submenu-main"><Submenu/></div>
         </li>
-        <li className="nav-list">  <Link>ETHNICS</Link>
+        <li className="nav-list">  <Link to='/western'>ETHNICS</Link>
           <div className="submenu-main"><EthnicMenu/></div>
         </li>
         <li className="nav-list">  <Link >SPORTS</Link>

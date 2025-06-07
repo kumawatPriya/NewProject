@@ -71,7 +71,7 @@ function ProductDetails() {
                     <Link to="/"><li>Home</li></Link> &nbsp;
                     <span style={{ marginRight: "4px" }}>/</span>
                     <Link to="/western"><li> Western</li></Link>&nbsp;
-                    <li> / {productData.link3}</li>
+                    <li> / <span style={{textDecoration: 'underline'}}>{productData.link3} </span></li>
                 </ul>
             </div>
             <div className="params-page-main">

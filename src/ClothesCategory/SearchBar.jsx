@@ -54,19 +54,19 @@ function ProductBar(){
         <li className="nav-list">  <Link to="/western">WESTERN</Link>
           <div className="product-bar-menu"><Submenu/></div>
         </li>
-        <li className="nav-list">  <Link to="/ethnics">ETHNICS</Link>
+        <li className="nav-list">  <Link to="/western">ETHNICS</Link>
           <div className="product-bar-menu"><EthnicMenu/></div>
         </li>
-        <li className="nav-list">  <Link to="/sports">SPORTS</Link>
+        <li className="nav-list">  <Link to="/">SPORTS</Link>
           <div className="product-bar-menu"><SportsMenu/></div>
         </li>
-        <li className="nav-list">  <Link to="/watches">WATCHES</Link>
+        <li className="nav-list">  <Link to="/">WATCHES</Link>
           <div className="product-bar-menu"><WatchesMenu/></div>
         </li>
-        <li className="nav-list">  <Link to="/bags">BAGS</Link>
+        <li className="nav-list">  <Link to="/">BAGS</Link>
           <div className="product-bar-menu"><BagsMenu/></div>
         </li>
-        <li className="nav-list">  <Link to="/footwear">FOOTWEAR</Link>
+        <li className="nav-list">  <Link to="/">FOOTWEAR</Link>
           <div className="product-bar-menu"><FootwearMenu/></div>
         </li>
         </ul>

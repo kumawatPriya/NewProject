@@ -66,6 +66,7 @@ function LoginPage() {
     return (
         <>
             <ToastContainer theme="dark" autoClose={1500} transition={Slide} position="top-center" hideProgressBar={true}/>
+            <div className="login_main">
             <div className="loginPage">
                 <div className="login-bx">
                     <p className="sign-in-text">SIGN IN TO</p>
@@ -114,6 +115,7 @@ function LoginPage() {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     )

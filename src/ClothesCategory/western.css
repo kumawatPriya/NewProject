@@ -227,7 +227,7 @@
 }
 .product-path ul a {
   color: rgb(11, 45, 166);
-  text-decoration: none;
+  text-decoration: underline;
 }
 .product-path ul a:hover {
   color: rgb(11, 45, 166);
@@ -525,7 +525,7 @@
   .product-path {
     display: flex;
     font-size: 13px;
-    margin-top: 6px;
+    margin-top: 15px;
     justify-content: center;
   }
   .params-page-main {
@@ -537,7 +537,7 @@
   .react-magnify-main {
     /* object-fit: cover; */
     margin: auto;
-    height: 325px;
+    height: 372px;
     display: flex;
     margin-top: 0px;
     width: 68%;
@@ -562,13 +562,13 @@
     font-size: 13px;
 }
   .feed-star {
-    width: 33%;
+    width: 32%;
 }
 .details-content {
     justify-content: center;
     display: flex;
     margin: 0px 0px 0px 0px;
-    width: 96%;
+    width: 90%;
     flex-direction: column;
     margin: auto;
 }
